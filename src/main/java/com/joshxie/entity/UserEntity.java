@@ -1,8 +1,8 @@
-package com.neo.entity;
+package com.joshxie.entity;
 
 import java.io.Serializable;
 
-import com.neo.enums.UserSexEnum;
+import com.joshxie.enums.UserSexEnum;
 
 public class UserEntity implements Serializable {
 

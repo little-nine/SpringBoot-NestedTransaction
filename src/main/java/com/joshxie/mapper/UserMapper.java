@@ -1,4 +1,4 @@
-package com.neo.mapper;
+package com.joshxie.mapper;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
-import com.neo.entity.UserEntity;
-import com.neo.enums.UserSexEnum;
+import com.joshxie.entity.UserEntity;
+import com.joshxie.enums.UserSexEnum;
 
 public interface UserMapper {
 	

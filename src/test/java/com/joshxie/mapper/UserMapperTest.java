@@ -1,8 +1,8 @@
-package com.neo.mapper;
+package com.joshxie.mapper;
 
 import java.util.List;
 
-import com.neo.web.UserService;
+import com.joshxie.web.UserService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,8 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.neo.entity.UserEntity;
-import com.neo.enums.UserSexEnum;
+import com.joshxie.entity.UserEntity;
+import com.joshxie.enums.UserSexEnum;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -45,9 +45,9 @@ public class UserMapperTest {
 	public void testUpdate() throws Exception {
 		UserEntity user = UserMapper.getOne(3l);
 		System.out.println(user.toString());
-		user.setNickName("neo");
+		user.setNickName("joshxie");
 		UserMapper.update(user);
-		Assert.assertTrue(("neo".equals(UserMapper.getOne(3l).getNickName())));
+		Assert.assertTrue(("joshxie".equals(UserMapper.getOne(3l).getNickName())));
 	}
 
 }

@@ -1,8 +1,8 @@
-package com.neo.web;
+package com.joshxie.web;
 
-import com.neo.entity.UserEntity;
-import com.neo.enums.UserSexEnum;
-import com.neo.mapper.UserMapper;
+import com.joshxie.entity.UserEntity;
+import com.joshxie.enums.UserSexEnum;
+import com.joshxie.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
